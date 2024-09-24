@@ -1,6 +1,5 @@
 ## MSA 환경에서 네트워크 예외를 잘 다루는 방법
 
----
 ### 간단 요약
 - 글로벌 트랜잭션 관리는 어떤 방식이든 네트워크 요청을 주고받음
 - 즉 트랙잭션을 잘 다루려면, 네트워크 예외처리를 잘 해야함
@@ -15,6 +14,13 @@
    - tx-key가 없을 시 어플리케이션에서 생성
 2. 코틀린 커스텀 클래스를 사용하여 반복되는 try-catch 문을 개선한다.
 
-
-
 **reference:** https://tech.kakaopay.com/post/msa-transaction/
+
+### 개념 관련
+**invoke**: https://wooooooak.github.io/kotlin/2019/03/21/kotlin_invoke/
+
+**inline function**: https://velog.io/@haero_kim/Kotlin-Inline-Function-%ED%8C%8C%ED%97%A4%EC%B9%98%EA%B8%B0
+
+**고차 함수**: https://incheol-jung.gitbook.io/docs/study/kotlin-in-action/8#undefined-7
+
+**공변성/반공변성(in/out)**: https://velog.io/@hoyaho/generic-2
