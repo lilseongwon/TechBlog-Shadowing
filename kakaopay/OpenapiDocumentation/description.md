@@ -19,5 +19,5 @@ Spring Rest Docs를 연동하여 OAS(OpenApiSpec. Swagger-ui로 시각화 가능
 
 **reference**: https://tech.kakaopay.com/post/openapi-documentation/
 
-## 개념 정리
-
+## Next Action
+gradle 공부
