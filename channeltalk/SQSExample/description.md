@@ -113,3 +113,6 @@ SQS를 사용하여 Queue를 외부로 빼면 Consumer worker를 더 띄울수�
 ![image](https://github.com/user-attachments/assets/d6ee4c29-f25f-4526-81db-198330bc6125)
 
 갑자기 많은 로그를 write하려면 DynamoDB의 provisioned throughput을 넘어서 문제가 발생. → 중간에 버퍼링을 위해 SQS를 넣고 일정한 속도로 메시지를 읽어나가며 storage로 보내는 디자인 선택
+
+## 고찰
+SQS DTO가 자꾸 직/역직렬화 될 때 camel case로 되는데, 이거 일일이 objectmapper 사용해서 snake case로 바꾸는게 좀 별로임. 옵션 설정이 가능한지 찾아봐야겠음.
