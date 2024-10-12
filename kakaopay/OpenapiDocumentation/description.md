@@ -1,6 +1,6 @@
 ## OpenAPI Specification을 이용한 더욱 효과적인 API 문서화
 
-### 간단 요약&구현 내
+### 간단 요약&구현 내용
 **Swagger**
 
 | 장점 | 단점 |
