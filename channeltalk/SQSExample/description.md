@@ -12,7 +12,7 @@ reference: https://channel.io/ko/blog/tech-backend-aws-sqs-introduction
 여기서 방법은 두가지
 
 1. 요청을 일단 queue에 넣고 요청을 Buffer에서 빼면서 차례대로 처리 → 어차피 확인만 하면 되는 로깅
-2. 허용된 용량 이상의 요청은 즉시 거절 → Open AP 등의 동기 처리 API에 사용
+2. 허용된 용량 이상의 요청은 즉시 거절 → Open API 등의 동기 처리 API에 사용
 
 ## AWS SQS
 
